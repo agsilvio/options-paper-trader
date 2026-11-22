@@ -1,0 +1,89 @@
+[data-bs-theme=dark] {
+  --bs-body-font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --bs-body-bg: #0e1016;
+  --bs-body-color: #d6d9e0;
+  --bs-tertiary-bg: #141720;
+  --bs-secondary-bg: #1a1e29;
+  --bs-border-color: #252a36;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 0.925rem;
+}
+
+.navbar-brand {
+  font-size: 1.05rem;
+}
+
+.card {
+  --bs-card-bg: #141720;
+  --bs-card-cap-bg: #171b25;
+  --bs-card-border-color: #252a36;
+}
+
+.card-header {
+  padding: 0.85rem 1rem;
+}
+
+.stat-label {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+}
+
+.stat-value {
+  margin-top: 0.35rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.table {
+  --bs-table-bg: transparent;
+  margin-bottom: 0;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.75rem 1rem;
+  border-color: var(--bs-border-color);
+}
+
+.table thead th {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+  white-space: nowrap;
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.empty {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--bs-secondary-color);
+}
+
+.empty .bi {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  opacity: 0.6;
+}
+
+.summary dd {
+  font-variant-numeric: tabular-nums;
+}
+
+.gate {
+  max-width: 480px;
+  margin: 10vh auto 0;
+}
